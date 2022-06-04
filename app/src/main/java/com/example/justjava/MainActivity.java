@@ -91,4 +91,9 @@ public class MainActivity extends AppCompatActivity {
         TextView orderSummaryTextView = (TextView) findViewById(R.id.price_text_view);
         orderSummaryTextView.setText(message);
     }
+
+    private String orderSummary(String nameOfCustomer, boolean hasCream, int quantity, int price){
+        return "Order Summary \nName: " + nameOfCustomer + "\nAdd whipped cream? " + hasCream +
+                "\nQuantity: " + quantity +  "\nTotal cost: $" + price + "\nThank u ";
+    }
 }
