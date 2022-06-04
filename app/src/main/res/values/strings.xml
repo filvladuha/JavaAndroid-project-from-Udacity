@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="order">Order</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Order summary</string>
+    <string name="valuePrice">0</string>
+    <string name="headPage">Toppings</string>
+    <string name="checkbox1">Whipped cream</string>
+    <string name="checkbox2">Chocolate</string>
+</resources>
